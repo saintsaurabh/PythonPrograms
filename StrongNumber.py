@@ -12,4 +12,4 @@ while num > 0:
 if temp == res:
     print("Strong number.")
 else:
-    print("Not a prime number.")
+    print("Not a strong number.")
