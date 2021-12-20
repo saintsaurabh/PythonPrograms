@@ -28,9 +28,9 @@ while True:
 
     print("Press 1 for addition.")
     print("Press 2 for subtraction.")
-    print("Print 3 for multiplication.")
-    print("Print 4 for division.")
-    print("Print 5 for stop.")
+    print("Press 3 for multiplication.")
+    print("Press 4 for division.")
+    print("Press 5 for stop.")
     choice = int(input("Enter any of the choice given above: "))
 
     if choice == 1:
@@ -53,4 +53,4 @@ while True:
         break
 
     else:
-        print("Valid input choice.")
+        print("InValid input choice.")
