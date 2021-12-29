@@ -5,13 +5,15 @@ def perfect(num, res=0, i=1):
 
     elif num % i == 0:
         res += i
+        if num == res:
+            return res
 
     return perfect(num, res, i+1)
 
 
-num = int(input("Enter the number: "))
+num1 = int(input("Enter the number: "))
 
-if num == perfect(num):
-    print(num, "is Perfect Number.")
+if num1 == perfect(num1):
+    print(num1, "is Perfect Number.")
 else:
-    print(num, "is not Perfect Number.")
+    print(num1, "is not Perfect Number.")
